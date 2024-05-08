@@ -8,6 +8,6 @@ Technologies Used
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=javascript,mongodb,postman,node,express" />
+    <img src="https://skillicons.dev/icons?i=javascript,mongodb,postman,nodejs,express" />
   </a>
 </p>
