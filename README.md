@@ -13,13 +13,14 @@ Technologies Used
 </p>
 
 Key Features
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-User Authentication: Users can sign up and sign in securely to access the platform's features. JWT is used for authentication.
-Password Reset: Users can reset their passwords securely using OTP (One-Time Password).
-Create and Manage Posts: Users can create, update, delete, and archive their posts, incorporating text and media content.
-Engagement Features: Postaway supports user engagement with like and comment functionalities for each post.
-Friend Management: Users can send friend requests, accept or reject pending requests, and manage their friends list.
-Bookmarking and Saving: Users can bookmark or save posts for later reference.
-Filtering: Posts can be filtered based on captions, enhancing discoverability.
-Pagination: Retrieve posts and comments in a paginated format for optimized performance.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+• User Authentication: Implement secure signup and signin functionalities using JWT for authentication.
+• Password Reset: Enable users to securely reset their passwords via OTP (One-Time Password) verification.
+• Create and Manage Posts: Empower users to create, update, delete, and archive posts, including text and media content.
+• Engagement Features: Enhance user interaction with like and comment functionalities for each post.
+• Friend Management: Facilitate friend requests, acceptance/rejection, and management of friends lists.
+• Bookmarking and Saving: Allow users to bookmark or save posts for later reference.
+• Filtering: Enhance discoverability by implementing post filtering based on captions.
+• Pagination: Optimize performance by paginating posts and comments retrieval.
 
