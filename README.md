@@ -1,63 +1,12 @@
 # Postaway
+<h1 align="center">Hi 👋, I'm Mani Chandra</h1>
+<h3 align="center">A passionate FullStack Web Developer</h3>
 
-Postaway is a social media platform API built using Express.js, Node.js, MongoDB, designed to enable users to perform various social media activities such as user management, posts creation, commenting, liking, friend requests, and enhanced security features, OTP based password reset and more.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-Features
-User Management: Register and authenticate users.
-Post Creation: Users can create posts with text and media.
-Commenting: Users can comment on posts.
-Liking: Users can like posts.
-File Upload: Supports file upload for user avatars and post images.
-Error Handling: Graceful handling of errors with appropriate HTTP status codes and error messages.
-Authentication: Implements JSON Web Tokens (JWT) for user authentication.
-Security: Ensures security measures like data validation and input sanitization.
-Scalable Architecture: Uses Express.js for a scalable and modular architecture.
-Installation
-Clone the repository:
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
 
-git clone https://github.com/bharatlal124/Postaway-II-API-project.git
-cd postaway-api
-Install dependencies: npm install
 
-Set up environment variables:
-
-Create a .env file in the root directory with the following variables:
-DB_URL=Add database link here
-JWT_SECRET_KEY=your = _jwt_secret_key_here
-Start the server: node index.js
-
-API Endpoints
-User Routes
-POST /api/user/register: Register a new user account.
-POST /api/user/login: Log in as a user.
-POST /api/user/upload-avatar: Upload user avatar.
-Post Routes
-POST /api/posts: Create a new post.
-POST /api/posts/upload-image: Upload post image.
-GET /api/posts: Retrieve all posts.
-GET /api/posts/:id: Retrieve a specific post by ID.
-PUT /api/posts/:id: Update a specific post by ID.
-DELETE /api/posts/:id: Delete a specific post by ID.
-Comment Routes
-POST /api/comments: Create a new comment.
-GET /api/comments: Retrieve all comments for a specific post.
-PUT /api/comments/:id: Update a specific comment by ID.
-DELETE /api/comments/:id: Delete a specific comment by ID.
-Like Routes
-POST /api/likes: Add a like to a post.
-DELETE /api/likes/:id: Remove a like from a post.
-GET /api/likes/:postId: Retrieve all likes for a specific post.
-Technologies Used
-Express.js
-Mongoose (for MongoDB object modeling)
-JWT (JSON Web Tokens) for authentication
-Multer (for handling file uploads)
-Bcrypt (for password hashing)
-Body-parser (for parsing request bodies)
-Axios (for HTTP requests)
-ESLint (for code linting)
-Winston (for logging)
-Helmet (for securing HTTP headers)
-Dotenv (for environment variables)
-Nodemailer (For sending emails)
-Node.js Crypto Module (For generating and verifying OTPs securely)
